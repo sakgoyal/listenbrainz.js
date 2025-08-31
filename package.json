@@ -5,7 +5,7 @@
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sakgoyal/listenbrainz.js"
+		"url": "git+https://github.com/sakgoyal/listenbrainz.js.git"
 	},
 	"exports": {
 		".": {
