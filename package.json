@@ -2,9 +2,13 @@
 	"name": "listenbrainz.js",
 	"version": "0.1.0",
 	"description": "A TypeScript client for the ListenBrainz API.",
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
 	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/client.d.ts",
+			"import": "./dist/client.js"
+		}
+	},
 	"scripts": {
 		"build": "tsc"
 	},
