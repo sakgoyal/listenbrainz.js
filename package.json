@@ -1,6 +1,6 @@
 {
 	"name": "listenbrainz.js",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A TypeScript client for the ListenBrainz API.",
 	"type": "module",
 	"repository": {
@@ -28,8 +28,5 @@
 	],
 	"engines": {
 		"node": ">=22"
-	},
-	"dependencies": {
-		"listenbrainz.js": "^0.1.0"
 	}
 }
