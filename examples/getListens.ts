@@ -1,4 +1,4 @@
-import { ListenBrainz } from '../src/client';
+import { ListenBrainz } from 'listenbrainz.js';
 
 const client = new ListenBrainz();
 const listens = await client.get_listens('iliekcomputers');

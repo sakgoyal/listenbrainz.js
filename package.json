@@ -1,12 +1,14 @@
 {
 	"name": "listenbrainz.js",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A TypeScript client for the ListenBrainz API.",
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sakgoyal/listenbrainz.js.git"
+		"url": "github:sakgoyal/listenbrainz.js"
 	},
+	"main": "dist/client.js",
+	"types": "dist/client.d.ts",
 	"exports": {
 		".": {
 			"types": "./dist/client.d.ts",
@@ -19,5 +21,15 @@
 	"devDependencies": {
 		"@types/node": "^24.3.0",
 		"typescript": "^5.9"
+	},
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"engines": {
+		"node": ">=22"
+	},
+	"dependencies": {
+		"listenbrainz.js": "^0.1.0"
 	}
 }
