@@ -1,0 +1,15 @@
+{
+	"name": "listenbrainz.js",
+	"version": "0.0.1",
+	"description": "A TypeScript client for the ListenBrainz API.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"scripts": {
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"@types/node": "^24.3.0",
+		"typescript": "^5.9"
+	}
+}
