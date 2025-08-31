@@ -1,6 +1,6 @@
 # listenbrainz.js
 
-*listenbrainz.js* is a simple TypeScript/JavaScript library for the
+A simple TypeScript/JavaScript library for the
 [ListenBrainz Web API](https://listenbrainz.readthedocs.io/en/production/dev/api/).
 
 listenbrainz.js will help you start getting data from and submitting data to
@@ -9,7 +9,7 @@ listenbrainz.js will help you start getting data from and submitting data to
 Here's an example of getting the listening history of a ListenBrainz user:
 
 ```ts
-import { ListenBrainz } from "listenbrainz.js";
+import { ListenBrainz } from 'listenbrainz.js';
 
 const client = new ListenBrainz();
 const listens = await client.get_listens('iliekcomputers');

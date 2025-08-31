@@ -166,8 +166,9 @@ export class ListenBrainz {
 	async get_playing_now(username: string): Promise<Listen | null> {
 		const data = await this.#get<PlayingNowResponse>(`/1/user/${username}/playing-now`);
 		const listens = data.payload.listens;
-		if (listens.length > 0)
+		if (listens.length > 0) {
 			return convertApiPayloadToListen(listens[0]);
+		}
 		return null;
 	}
 
