@@ -3,6 +3,10 @@
 	"version": "0.1.0",
 	"description": "A TypeScript client for the ListenBrainz API.",
 	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sakgoyal/listenbrainz.js"
+	},
 	"exports": {
 		".": {
 			"types": "./dist/client.d.ts",
